@@ -27,9 +27,13 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Move();
-        HandleJetpack();
+       
         CheckGrounded();
         HandleShooting();  // Handle shooting input
+    }
+    private void FixedUpdate()
+    {
+        HandleJetpack();
     }
 
     private void Move()
