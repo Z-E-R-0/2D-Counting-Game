@@ -15,7 +15,9 @@ public class PlayerMovement : MonoBehaviour
     private Shoot shootScript;        // Reference to the Shoot component
     private float moveInput;          // Variable to store horizontal input
     private float currentFuel;        // Current amount of fuel
-    private bool isJetpacking;        // Flag to check if the player is using the jetpack
+    private bool isJetpacking;
+    [SerializeField] private Transform jetPackParticel;// Flag to check if the player is using the jetpack
+    [SerializeField] AudioSource jetPackAudio;
 
     void Start()
     {
@@ -58,18 +60,29 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jetpackForce);
             currentFuel -= fuelConsumptionRate * Time.deltaTime;
             isJetpacking = true;
+           
         }
         else
         {
+          
             isJetpacking = false;
         }
-
+        if (isJetpacking && !jetPackAudio.isPlaying)
+        {
+            jetPackAudio.Play();
+        }
+        else if (!isJetpacking && jetPackAudio.isPlaying)
+        {
+            jetPackAudio.Stop();
+        }
+        HandelJetPackParticle();
         // Recharge fuel when the player is grounded and not using the jetpack
         if (isGrounded && !isJetpacking)
         {
             currentFuel += fuelRechargeRate * Time.deltaTime;
             currentFuel = Mathf.Clamp(currentFuel, 0, maxFuel);  // Ensure fuel does not exceed max capacity
         }
+
     }
 
     private void CheckGrounded()
@@ -99,5 +112,23 @@ public class PlayerMovement : MonoBehaviour
             float dirx = transform.localScale.x;  // Determine the shooting direction based on the player's facing direction
             shootScript.Fire(-dirx);  // Call the Fire method from the Shoot script with direction
         }
+    }
+
+    private void HandelJetPackParticle()
+    {
+        if(isJetpacking)
+        {
+
+            jetPackParticel.gameObject.SetActive(true);
+           
+        }
+        else
+        {
+            jetPackParticel.gameObject.SetActive(false);
+            
+
+        }
+
+
     }
 }
