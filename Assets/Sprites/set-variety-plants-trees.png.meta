@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: 8bfc11bf4590c8649bbf5ba9d45c8866
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1467296424199127003
+    second: set-variety-plants-trees_0
+  - first:
+      213: -8116343598929587681
+    second: set-variety-plants-trees_1
+  - first:
+      213: -8711651232472218169
+    second: set-variety-plants-trees_2
+  - first:
+      213: -6732627424346230805
+    second: set-variety-plants-trees_3
+  - first:
+      213: -6962940469582626002
+    second: set-variety-plants-trees_4
+  - first:
+      213: -2170737406443082610
+    second: set-variety-plants-trees_5
+  - first:
+      213: -634021006322155508
+    second: set-variety-plants-trees_6
+  - first:
+      213: -9126913786954237461
+    second: set-variety-plants-trees_7
+  - first:
+      213: 1766367762760639474
+    second: set-variety-plants-trees_8
+  - first:
+      213: 7444447190068960404
+    second: set-variety-plants-trees_9
+  - first:
+      213: -973193016926432290
+    second: set-variety-plants-trees_10
+  - first:
+      213: -4374682276298069159
+    second: set-variety-plants-trees_11
+  - first:
+      213: 5141179188237425858
+    second: set-variety-plants-trees_12
+  - first:
+      213: -3983760983824420558
+    second: set-variety-plants-trees_13
+  - first:
+      213: -1968253070340814570
+    second: set-variety-plants-trees_14
+  - first:
+      213: -3048197467714728151
+    second: set-variety-plants-trees_15
+  - first:
+      213: -1561902434112201630
+    second: set-variety-plants-trees_16
+  - first:
+      213: 5633632424823777527
+    second: set-variety-plants-trees_17
+  - first:
+      213: -1133176995447719603
+    second: set-variety-plants-trees_18
+  - first:
+      213: 1583967348451821201
+    second: set-variety-plants-trees_19
+  - first:
+      213: 369359431268066932
+    second: set-variety-plants-trees_20
+  - first:
+      213: 6158887910157609304
+    second: set-variety-plants-trees_21
+  - first:
+      213: 1937433635075264018
+    second: set-variety-plants-trees_22
+  - first:
+      213: -2467690651131576440
+    second: set-variety-plants-trees_23
+  - first:
+      213: -1551555833520023988
+    second: set-variety-plants-trees_24
+  - first:
+      213: 2644565418406150269
+    second: set-variety-plants-trees_25
+  - first:
+      213: -7402572344953954116
+    second: set-variety-plants-trees_26
+  - first:
+      213: -2956214560059330455
+    second: set-variety-plants-trees_27
+  - first:
+      213: -3483484296452129277
+    second: set-variety-plants-trees_28
+  - first:
+      213: 2589332849828045565
+    second: set-variety-plants-trees_29
+  - first:
+      213: -6376482044563928937
+    second: set-variety-plants-trees_30
+  - first:
+      213: -5116051266999477473
+    second: set-variety-plants-trees_31
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: set-variety-plants-trees_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1498
+        width: 347
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67467ca25fe34704384f528943d77b72
+      internalID: 1597152040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_1
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1498
+        width: 253
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7362e4a00614a8049b728f40e278975a
+      internalID: 1074357808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_2
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1498
+        width: 318
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbd13e721f31004c81c34a3d59f2be7
+      internalID: -923008309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_3
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1498
+        width: 291
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce7e376e3a5e70429164d2f441ccde8
+      internalID: 911609866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_4
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 1498
+        width: 283
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec6ca10aa451f042a68abd200fffb22
+      internalID: -520273460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_5
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 1498
+        width: 193
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb03231c9147a14aaaad4f1db475d9d
+      internalID: -480895076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1131
+        width: 322
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237cdad9f3ca9de41b1a13e8c39422c3
+      internalID: 1512734780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_7
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1131
+        width: 351
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a74d7347587386498c0fe9c651abf36
+      internalID: -1507548319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_8
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1131
+        width: 231
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f219ed343a7fa994fa9fbab6729bc440
+      internalID: 798191492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_9
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1131
+        width: 95
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e00d203b49a6a49899482cb4aed0d1
+      internalID: -1798073170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_10
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1131
+        width: 282
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfa95b254b6839408c46536a4882520
+      internalID: 1909557712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_11
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1131
+        width: 253
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7a6f25066e724479bd154cb46db86e
+      internalID: 479072882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_12
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1131
+        width: 324
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b651d61e8df8bcc4c9da907e2dfbcb99
+      internalID: -1441740871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 764
+        width: 209
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ceefa3eb99efb4a853ae5f2ad2f556
+      internalID: -156170574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_14
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 764
+        width: 368
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3695ca77a47ad54a8264fd988d4374f
+      internalID: -1070000941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_15
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 764
+        width: 163
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61c118223f9c2547a14166f44ac8b50
+      internalID: -17415748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_16
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 764
+        width: 375
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01858972b68604a46890e3c3ec159c8a
+      internalID: 260962923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_17
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 764
+        width: 182
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eca1ef26048f6c40969679aed0977dc
+      internalID: 1910113713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_18
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 764
+        width: 349
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33089211bdc2846479425830f6333571
+      internalID: 562742944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_19
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 397
+        width: 244
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1931d57a6b486b4cae52062ad181d24
+      internalID: -2011675101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_20
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 397
+        width: 265
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e209d5337a64bc4429cdfb7e6114cd98
+      internalID: 2084339701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_21
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 397
+        width: 289
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e0808868af31e478e26058e89d1c0f
+      internalID: -813550424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_22
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 399
+        width: 176
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eead7ba4f893ca448a6ae127b9369b8b
+      internalID: 420345618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_23
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 397
+        width: 333
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc9f4d3503a5dd40bef0481b04b53d7
+      internalID: -838442259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_24
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 397
+        width: 291
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c909179aa8accb944a50f51756339d95
+      internalID: 1418325351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 30
+        width: 274
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c894c190a9bbd46be3a47abdcf1b68
+      internalID: 180239208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_26
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 30
+        width: 200
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf4b6f74f890b440b3d81137baaa210
+      internalID: -1116187006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_27
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 30
+        width: 373
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d807b4690c8aa498225bfcbe3ea008
+      internalID: 1085844134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_28
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 30
+        width: 128
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4af742c8aaf5a8409d51b9080c881d1
+      internalID: 1895578860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_29
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 30
+        width: 284
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7690c01cea12645478820384224b07b5
+      internalID: -181996740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_30
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 30
+        width: 189
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32942208a5955d4cabc379a04e3ef35
+      internalID: 685030546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: set-variety-plants-trees_31
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 30
+        width: 276
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b596cba42a0e8194ab7a2c4e9de83500
+      internalID: -2034058722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bfadb94c1c0da674a8722f0d6cb65a68
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      set-variety-plants-trees_0: 1597152040
+      set-variety-plants-trees_1: 1074357808
+      set-variety-plants-trees_10: 1909557712
+      set-variety-plants-trees_11: 479072882
+      set-variety-plants-trees_12: -1441740871
+      set-variety-plants-trees_13: -156170574
+      set-variety-plants-trees_14: -1070000941
+      set-variety-plants-trees_15: -17415748
+      set-variety-plants-trees_16: 260962923
+      set-variety-plants-trees_17: 1910113713
+      set-variety-plants-trees_18: 562742944
+      set-variety-plants-trees_19: -2011675101
+      set-variety-plants-trees_2: -923008309
+      set-variety-plants-trees_20: 2084339701
+      set-variety-plants-trees_21: -813550424
+      set-variety-plants-trees_22: 420345618
+      set-variety-plants-trees_23: -838442259
+      set-variety-plants-trees_24: 1418325351
+      set-variety-plants-trees_25: 180239208
+      set-variety-plants-trees_26: -1116187006
+      set-variety-plants-trees_27: 1085844134
+      set-variety-plants-trees_28: 1895578860
+      set-variety-plants-trees_29: -181996740
+      set-variety-plants-trees_3: 911609866
+      set-variety-plants-trees_30: 685030546
+      set-variety-plants-trees_31: -2034058722
+      set-variety-plants-trees_4: -520273460
+      set-variety-plants-trees_5: -480895076
+      set-variety-plants-trees_6: 1512734780
+      set-variety-plants-trees_7: -1507548319
+      set-variety-plants-trees_8: 798191492
+      set-variety-plants-trees_9: -1798073170
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

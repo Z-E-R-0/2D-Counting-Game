@@ -29,7 +29,6 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Move();
-       
         CheckGrounded();
         HandleShooting();  // Handle shooting input
     }
@@ -60,11 +59,11 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jetpackForce);
             currentFuel -= fuelConsumptionRate * Time.deltaTime;
             isJetpacking = true;
-           
+
         }
         else
         {
-          
+
             isJetpacking = false;
         }
         if (isJetpacking && !jetPackAudio.isPlaying)
@@ -116,16 +115,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandelJetPackParticle()
     {
-        if(isJetpacking)
+        if (isJetpacking)
         {
 
             jetPackParticel.gameObject.SetActive(true);
-           
+
         }
         else
         {
             jetPackParticel.gameObject.SetActive(false);
-            
+
 
         }
 
