@@ -16,8 +16,10 @@ public class PlayerMovement : MonoBehaviour
     private float moveInput;          // Variable to store horizontal input
     private float currentFuel;        // Current amount of fuel
     private bool isJetpacking;
+    private bool isMoving;
     [SerializeField] private Transform jetPackParticel;// Flag to check if the player is using the jetpack
     [SerializeField] AudioSource jetPackAudio;
+    [SerializeField] AudioSource movingAudio;
 
     void Start()
     {
@@ -40,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
     private void Move()
     {
         moveInput = Input.GetAxis("Horizontal");  // Get horizontal input (A/D keys or Left/Right arrow keys)
-
+        isMoving = Mathf.Abs(moveInput) > 0;
         // Apply velocity based on input
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
 
@@ -49,6 +51,14 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
         else if (moveInput < 0)
             transform.localScale = new Vector3(1, 1, 1);
+        if (isMoving && !movingAudio.isPlaying && !isJetpacking)
+        {
+            movingAudio.Play();
+        }
+        else if (!isMoving && movingAudio.isPlaying)
+        {
+            movingAudio.Stop();
+        }
     }
 
     private void HandleJetpack()
