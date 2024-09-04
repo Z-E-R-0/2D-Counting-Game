@@ -20,16 +20,19 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform jetPackParticel;// Flag to check if the player is using the jetpack
     [SerializeField] AudioSource jetPackAudio;
     [SerializeField] AudioSource movingAudio;
+    [SerializeField] Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         shootScript = GetComponent<Shoot>();  // Get the Shoot component attached to the same GameObject
         currentFuel = maxFuel;  // Initialize fuel to maximum at the start
+        
     }
 
     void Update()
     {
+        animator.SetBool("IsJetpacking", isJetpacking);
         Move();
         CheckGrounded();
         HandleShooting();  // Handle shooting input
@@ -69,7 +72,7 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jetpackForce);
             currentFuel -= fuelConsumptionRate * Time.deltaTime;
             isJetpacking = true;
-
+            
         }
         else
         {
