@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class GameManager : MonoBehaviour
 {
    
@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
    [SerializeField] private Transform objectsToDestroy;
    [SerializeField] private Transform endGameUI;
    [SerializeField] private Transform winGameUI;
-
+    [SerializeField] public TMP_Text scoreText;
+    private int currentcoins;
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -33,5 +34,12 @@ public class GameManager : MonoBehaviour
             winGameUI.gameObject.SetActive(true);
         }
 
+    }
+
+    public void AddScoreCoins(int coins)
+    {
+
+        currentcoins = currentcoins + coins;
+        scoreText.text = "Coins:-" + currentcoins.ToString();
     }
 }

@@ -33,6 +33,13 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         animator.SetBool("IsJetpacking", isJetpacking);
+
+       
+       
+             
+        animator.SetBool("isWalking", isMoving);
+
+       
         Move();
         CheckGrounded();
         HandleShooting();  // Handle shooting input
