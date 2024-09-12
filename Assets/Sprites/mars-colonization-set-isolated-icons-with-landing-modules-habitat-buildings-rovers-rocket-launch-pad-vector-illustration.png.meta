@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: 94c1cdffe0452094284c9b37c6e7cb13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7904161167067836674
+    second: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_0
+  - first:
+      213: 70990448111731664
+    second: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_1
+  - first:
+      213: -3281569715547265692
+    second: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_2
+  - first:
+      213: 2197368284120361288
+    second: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_3
+  - first:
+      213: 8112942053226459238
+    second: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_4
+  - first:
+      213: 4064442083857798020
+    second: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_5
+  - first:
+      213: 2129210742754020869
+    second: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_6
+  - first:
+      213: -7011277490652615090
+    second: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_7
+  - first:
+      213: 7611088155658577140
+    second: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_8
+  - first:
+      213: 7626095466789885479
+    second: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_9
+  - first:
+      213: -8099341200728625970
+    second: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_10
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1406
+        width: 453
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201f38214b831bd60800000000000000
+      internalID: 7904161167067836674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_1
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1404
+        width: 376
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3452abf653cf000800000000000000
+      internalID: 70990448111731664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_2
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1406
+        width: 666
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465202feab58572d0800000000000000
+      internalID: -3281569715547265692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_3
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1666
+        width: 235
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84924bfefce9e7e10800000000000000
+      internalID: 2197368284120361288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 926
+        width: 651
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66034ed20d5f69070800000000000000
+      internalID: 8112942053226459238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_5
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 925
+        width: 977
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4831e7a7a8cc76830800000000000000
+      internalID: 4064442083857798020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 561
+        width: 693
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e8cc5b3e97c8d10800000000000000
+      internalID: 2129210742754020869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_7
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 560
+        width: 528
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e65f30540f2be90800000000000000
+      internalID: -7011277490652615090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_8
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 119
+        width: 493
+        height: 732
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f466303a5400a960800000000000000
+      internalID: 7611088155658577140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 120
+        width: 547
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7265a391c6555d960800000000000000
+      internalID: 7626095466789885479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_10
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 119
+        width: 591
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc62ef071c599f80800000000000000
+      internalID: -8099341200728625970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
