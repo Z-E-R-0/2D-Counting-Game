@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - ENEMY
+  - Projectile
+  - Gem
   layers:
   - Default
   - TransparentFX
