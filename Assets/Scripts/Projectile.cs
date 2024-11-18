@@ -15,7 +15,7 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         // Apply velocity in the direction the player is facing
-        rb.velocity = transform.right * speed * direction;
+        rb.linearVelocity = transform.right * speed * direction;
     }
 
     void OnCollisionEnter2D(Collision2D collision)

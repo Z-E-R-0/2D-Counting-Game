@@ -2,8 +2,12 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
-    public int points = 10;  // Points or value the collectible gives to the player
-    public GameManager gameManager;  // Reference to the GameManager or score handler
+    public int points = 10;  // Points the collectible gives to the player
+    public GameManager gameManager;  // Reference to the GameManager
+    // Reference to the AudioSource component
+    [SerializeField] GameObject particlePrefab;
+
+
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -15,12 +19,10 @@ public class Collectible : MonoBehaviour
 
     void Collect()
     {
-        // Add points to the player's score or trigger any other event
-        gameManager.AddPoints(points);  // Assuming the GameManager handles score
-
-        // Optional: Play sound, trigger particle effect, etc.
-        Debug.Log("Collectible picked up! Points: " + points);
-
+        // Add points to the player's score
+        gameManager.AddPoints(points);
+        Debug.Log("Collected! Points added: " + points);
+        Instantiate(particlePrefab, transform.position, Quaternion.identity);
         // Destroy the collectible object
         Destroy(gameObject);
     }

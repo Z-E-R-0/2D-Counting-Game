@@ -8,6 +8,7 @@ public class LevelButton : MonoBehaviour
     public JetpackPlayerController jetpackPlayer;
     public GameObject player;
     public bool isGameLevel = false;
+    [SerializeField] private AudioSource clickSound;
     // This method is linked to the button's OnClick event
 
     private void Awake()
@@ -20,6 +21,7 @@ public class LevelButton : MonoBehaviour
     }
     public void OnLevelSelected()
     {
+        clickSound.PlayOneShot(clickSound.clip);
         gameManager.SelectLevel(level);
         
     }

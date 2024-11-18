@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: ca884b4f4342e504db22d0ae696fddb6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4453090269712569179
+    second: star-inside-yellow-circle-collection_0
+  - first:
+      213: -6860218669330731612
+    second: star-inside-yellow-circle-collection_1
+  - first:
+      213: -849115962888742254
+    second: star-inside-yellow-circle-collection_2
+  - first:
+      213: -3333623840497863816
+    second: star-inside-yellow-circle-collection_3
+  - first:
+      213: 3232536227149326788
+    second: star-inside-yellow-circle-collection_4
+  - first:
+      213: 7665035761440185090
+    second: star-inside-yellow-circle-collection_5
+  - first:
+      213: -6225153311213527894
+    second: star-inside-yellow-circle-collection_6
+  - first:
+      213: -7235558933273232688
+    second: star-inside-yellow-circle-collection_7
+  - first:
+      213: 862616722694937290
+    second: star-inside-yellow-circle-collection_8
+  - first:
+      213: -54230155952773905
+    second: star-inside-yellow-circle-collection_9
+  - first:
+      213: 4378589421854902472
+    second: star-inside-yellow-circle-collection_10
+  - first:
+      213: 5377066444742779832
+    second: star-inside-yellow-circle-collection_11
+  - first:
+      213: 5320706786115826687
+    second: star-inside-yellow-circle-collection_12
+  - first:
+      213: -548129574832664841
+    second: star-inside-yellow-circle-collection_13
+  - first:
+      213: 4701468288155765107
+    second: star-inside-yellow-circle-collection_14
+  - first:
+      213: -4394474203290778941
+    second: star-inside-yellow-circle-collection_15
+  - first:
+      213: 4523197708837285038
+    second: star-inside-yellow-circle-collection_16
+  - first:
+      213: 6490261033021716579
+    second: star-inside-yellow-circle-collection_17
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1355
+        width: 363
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5357feb10e8ccd30800000000000000
+      internalID: 4453090269712569179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_1
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1355
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ade90d977b9bc0a0800000000000000
+      internalID: -6860218669330731612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_2
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1355
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a17e2d7855734f0800000000000000
+      internalID: -849115962888742254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_3
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 1355
+        width: 362
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873f95487c69cb1d0800000000000000
+      internalID: -3333623840497863816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 845
+        width: 363
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c921d662964cdc20800000000000000
+      internalID: 3232536227149326788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_5
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 845
+        width: 362
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bde47f96daf5a60800000000000000
+      internalID: 7665035761440185090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_6
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 845
+        width: 363
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac55c4bb00db99a0800000000000000
+      internalID: -6225153311213527894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_7
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 845
+        width: 362
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da38de5c71269b90800000000000000
+      internalID: -7235558933273232688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 339
+        width: 363
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca1b85c651a8fb00800000000000000
+      internalID: 862616722694937290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_9
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 339
+        width: 362
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe42252e5f55f3ff0800000000000000
+      internalID: -54230155952773905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_10
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 306
+        width: 364
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8c1f261efd3cc30800000000000000
+      internalID: 4378589421854902472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_11
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 339
+        width: 362
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3e09c417d2f9a40800000000000000
+      internalID: 5377066444742779832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_12
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 50
+        width: 163
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3b174b1a2f6d940800000000000000
+      internalID: 5320706786115826687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_13
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 60
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe86394e07a468f0800000000000000
+      internalID: -548129574832664841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_14
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 50
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379c946af78fe3140800000000000000
+      internalID: 4701468288155765107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_15
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 58
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c24c3abef0b303c0800000000000000
+      internalID: -4394474203290778941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_16
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 48
+        width: 133
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac6b1ce950a5ce30800000000000000
+      internalID: 4523197708837285038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: star-inside-yellow-circle-collection_17
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 60
+        width: 163
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368b1dcc50a021a50800000000000000
+      internalID: 6490261033021716579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      star-inside-yellow-circle-collection_0: 4453090269712569179
+      star-inside-yellow-circle-collection_1: -6860218669330731612
+      star-inside-yellow-circle-collection_10: 4378589421854902472
+      star-inside-yellow-circle-collection_11: 5377066444742779832
+      star-inside-yellow-circle-collection_12: 5320706786115826687
+      star-inside-yellow-circle-collection_13: -548129574832664841
+      star-inside-yellow-circle-collection_14: 4701468288155765107
+      star-inside-yellow-circle-collection_15: -4394474203290778941
+      star-inside-yellow-circle-collection_16: 4523197708837285038
+      star-inside-yellow-circle-collection_17: 6490261033021716579
+      star-inside-yellow-circle-collection_2: -849115962888742254
+      star-inside-yellow-circle-collection_3: -3333623840497863816
+      star-inside-yellow-circle-collection_4: 3232536227149326788
+      star-inside-yellow-circle-collection_5: 7665035761440185090
+      star-inside-yellow-circle-collection_6: -6225153311213527894
+      star-inside-yellow-circle-collection_7: -7235558933273232688
+      star-inside-yellow-circle-collection_8: 862616722694937290
+      star-inside-yellow-circle-collection_9: -54230155952773905
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

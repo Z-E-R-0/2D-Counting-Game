@@ -10,7 +10,7 @@ public class JetpackPlayerController : MonoBehaviour
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
     public Animator animator;
-
+    [SerializeField] AudioSource jetPackAudio;
     public GameObject jetpackParticles; // Reference to the jetpack particle effect
 
     private bool isGrounded;
@@ -24,10 +24,10 @@ public class JetpackPlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         animator.SetBool("IsJetpacking", jetpackActive);
         animator.SetBool("isWalking", isWalking);  // Update the walking state in the animator
-
+       
         // Horizontal movement
         float moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
 
         // Check if the player is walking (i.e., moving horizontally)
         if (Mathf.Abs(moveInput) > 0 && isGrounded)
@@ -50,14 +50,22 @@ public class JetpackPlayerController : MonoBehaviour
         }
 
         // Jetpack control and particle effect
-        if (Input.GetButton("Jump") && transform.position.y < maxJetpackHeight)
+        if (Input.GetKey(KeyCode.W)||Input.GetKey(KeyCode.UpArrow) && transform.position.y < maxJetpackHeight)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jetpackForce);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jetpackForce);
             jetpackActive = true;
-            jetpackParticles.SetActive(true);  // Enable the particle effect
+            jetpackParticles.SetActive(true);
+            if(!jetPackAudio.isPlaying)
+            {
+                jetPackAudio.Play();// Enable the particle effect
+
+            }
+
+           
         }
         else
         {
+            jetPackAudio.Stop();
             jetpackActive = false;
             jetpackParticles.SetActive(false); // Disable the particle effect
         }

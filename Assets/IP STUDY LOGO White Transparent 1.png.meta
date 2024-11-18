@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 31ca0ab04a8f5f84cbad4b7855fd4d20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 820468947226154032
+    second: IP STUDY LOGO White Transparent 1_0
+  - first:
+      213: -2996396639680803862
+    second: IP STUDY LOGO White Transparent 1_1
+  - first:
+      213: -8369320061028203208
+    second: IP STUDY LOGO White Transparent 1_2
+  - first:
+      213: 5022638624994388681
+    second: IP STUDY LOGO White Transparent 1_3
+  - first:
+      213: 7032557791523552120
+    second: IP STUDY LOGO White Transparent 1_4
+  - first:
+      213: 3729371662676720216
+    second: IP STUDY LOGO White Transparent 1_5
+  - first:
+      213: -4955215294435314959
+    second: IP STUDY LOGO White Transparent 1_6
+  - first:
+      213: -4009221838714218280
+    second: IP STUDY LOGO White Transparent 1_7
+  - first:
+      213: 1411298712669942614
+    second: IP STUDY LOGO White Transparent 1_8
+  - first:
+      213: 1625956229571742095
+    second: IP STUDY LOGO White Transparent 1_9
+  - first:
+      213: -5951271686836441929
+    second: IP STUDY LOGO White Transparent 1_10
+  - first:
+      213: -2435689255829147587
+    second: IP STUDY LOGO White Transparent 1_11
+  - first:
+      213: 6020980089027581705
+    second: IP STUDY LOGO White Transparent 1_12
+  - first:
+      213: 4684023198813214213
+    second: IP STUDY LOGO White Transparent 1_13
+  - first:
+      213: -1373173725743739794
+    second: IP STUDY LOGO White Transparent 1_14
+  - first:
+      213: -2848159720489414608
+    second: IP STUDY LOGO White Transparent 1_15
+  - first:
+      213: 3619130760512875333
+    second: IP STUDY LOGO White Transparent 1_16
+  - first:
+      213: 7515761825583407477
+    second: IP STUDY LOGO White Transparent 1_17
+  - first:
+      213: -2486755392964695691
+    second: IP STUDY LOGO White Transparent 1_18
+  - first:
+      213: 281866550772420653
+    second: IP STUDY LOGO White Transparent 1_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 43
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03457a41924e26b00800000000000000
+      internalID: 820468947226154032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 90
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebc6adb129aa66d0800000000000000
+      internalID: -2996396639680803862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 90
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8350dde3fb33adb80800000000000000
+      internalID: -8369320061028203208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_3
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 88
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca62f5e73ff3b540800000000000000
+      internalID: 5022638624994388681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_4
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 90
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bba222d0aa89160800000000000000
+      internalID: 7032557791523552120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_5
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 88
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85af045a4c361c330800000000000000
+      internalID: 3729371662676720216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_6
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 90
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2b99d81f98b3bb0800000000000000
+      internalID: -4955215294435314959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_7
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 90
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d853bdbaf16c58c0800000000000000
+      internalID: -4009221838714218280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 49
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65378a8a3b0f59310800000000000000
+      internalID: 1411298712669942614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_9
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 48
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8905fb739e809610800000000000000
+      internalID: 1625956229571742095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_10
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 49
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc26489ee5d86da0800000000000000
+      internalID: -5951271686836441929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 49
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d307113d681b23ed0800000000000000
+      internalID: -2435689255829147587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_12
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 49
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907503e8d71de8350800000000000000
+      internalID: 6020980089027581705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_13
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 49
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50653f4484ef00140800000000000000
+      internalID: 4684023198813214213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_14
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 48
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c052695c181fce0800000000000000
+      internalID: -1373173725743739794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 49
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03017ac03dd4978d0800000000000000
+      internalID: -2848159720489414608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_16
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 49
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b2f00704cb93230800000000000000
+      internalID: 3619130760512875333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_17
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 49
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57127566f895d4860800000000000000
+      internalID: 7515761825583407477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_18
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 49
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5796d0f35254d7dd0800000000000000
+      internalID: -2486755392964695691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IP STUDY LOGO White Transparent 1_19
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 49
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20dad0722469e300800000000000000
+      internalID: 281866550772420653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IP STUDY LOGO White Transparent 1_0: 820468947226154032
+      IP STUDY LOGO White Transparent 1_1: -2996396639680803862
+      IP STUDY LOGO White Transparent 1_10: -5951271686836441929
+      IP STUDY LOGO White Transparent 1_11: -2435689255829147587
+      IP STUDY LOGO White Transparent 1_12: 6020980089027581705
+      IP STUDY LOGO White Transparent 1_13: 4684023198813214213
+      IP STUDY LOGO White Transparent 1_14: -1373173725743739794
+      IP STUDY LOGO White Transparent 1_15: -2848159720489414608
+      IP STUDY LOGO White Transparent 1_16: 3619130760512875333
+      IP STUDY LOGO White Transparent 1_17: 7515761825583407477
+      IP STUDY LOGO White Transparent 1_18: -2486755392964695691
+      IP STUDY LOGO White Transparent 1_19: 281866550772420653
+      IP STUDY LOGO White Transparent 1_2: -8369320061028203208
+      IP STUDY LOGO White Transparent 1_3: 5022638624994388681
+      IP STUDY LOGO White Transparent 1_4: 7032557791523552120
+      IP STUDY LOGO White Transparent 1_5: 3729371662676720216
+      IP STUDY LOGO White Transparent 1_6: -4955215294435314959
+      IP STUDY LOGO White Transparent 1_7: -4009221838714218280
+      IP STUDY LOGO White Transparent 1_8: 1411298712669942614
+      IP STUDY LOGO White Transparent 1_9: 1625956229571742095
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

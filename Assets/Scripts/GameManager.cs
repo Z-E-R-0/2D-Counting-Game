@@ -1,58 +1,105 @@
 using UnityEngine;
 using TMPro;
+using System.Collections; // Required for coroutines
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
-    public TextMeshProUGUI questionText; // Text field to display the question
-    public int levelSelected; // Number of digits to generate
-    private int randomNumber; // The randomly generated number
-    private int correctAnswer; // The correct answer based on the question
-    private string currentPlace; // The place value being asked about (ones, tens, etc.)
+    [Header("LivesUI")]
+    public GameObject heartUIPrefab;  // Reference to the Heart UI prefab
+    public Transform livesContainer;  // Parent container for the hearts in the UI
+    public int lives = 3;  // Initial number of lives
+    private List<GameObject> heartUIInstances = new List<GameObject>();  // Store references to the heart instances
+    public float heartSpacing = 1.0f;  // Distance between hearts
 
-    public TextMeshProUGUI scoreText;  // UI Text for displaying the score
-    private int star = 0;  // Player's score
 
-    public GameObject gemPrefab; // Prefab of the gem
-    public Transform[] spawnPoints; // Array of possible spawn points for gems
-    public int numberOfWrongGems = 3; // Number of incorrect gems to spawn
+    public TextMeshProUGUI questionText;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI winScoreText;
+    public GameObject winScreen;
+    public GameObject gameOverScreen;
+    public int levelSelected;
+    private int randomNumber;
+    private int correctAnswer;
+    private string currentPlace;
+    [SerializeField] AudioSource coinAudio;
+    [SerializeField] AudioSource wrongAnswerAudio;
+    [SerializeField] AudioClip correctAudioClip;
 
-    // Call this when a level is selected
+    private int star = 0;
+    private int wrongAnswers = 0;
+    public int correctAnswersToWin = 5;
+    public int maxWrongAnswers = 3;
+    public bool isCorrect;
+
+    public GameObject gemPrefab;
+    public Transform[] spawnPoints;
+    public int numberOfWrongGems = 3;
+    public float delayBeforeNextQuestion = 2f; // Add this to control the delay
+    [SerializeField] private ResultAudio resultAudio;
+
+   
+    private void Awake()
+    {
+        Time.timeScale = 1f;
+        SetupLivesUI();
+        resultAudio = FindAnyObjectByType<ResultAudio>();
+    }
+    private void SetupLivesUI()
+    {
+        // Instantiate hearts with spacing
+        for (int i = 0; i < lives; i++)
+        {
+            Vector3 heartPosition = livesContainer.position + new Vector3(i * heartSpacing, 0, 0);
+            GameObject heart = Instantiate(heartUIPrefab, heartPosition, Quaternion.identity, livesContainer);
+            heartUIInstances.Add(heart);
+        }
+    }
+    public void LoseLife()
+    {
+        if (lives > 0)
+        {
+            lives--;
+            Destroy(heartUIInstances[lives]);  // Remove a heart icon
+            heartUIInstances.RemoveAt(lives);
+            
+
+            if (lives <= 0)
+            {
+
+                CheckForGameOver(); // End the game if no lives are left
+            }
+        }
+    }
     public void SelectLevel(int level)
     {
         levelSelected = level;
         GenerateRandomNumber(levelSelected);
         AskQuestion();
-        SpawnGems(); // Spawn gems after generating the question
+        SpawnGems();
     }
 
-    // Generate a random number based on the level (number of digits)
     void GenerateRandomNumber(int numberOfDigits)
     {
-        int minValue = (int)Mathf.Pow(10, numberOfDigits - 1); // Smallest number
-        int maxValue = (int)Mathf.Pow(10, numberOfDigits) - 1; // Largest number
+        int minValue = (int)Mathf.Pow(10, numberOfDigits - 1);
+        int maxValue = (int)Mathf.Pow(10, numberOfDigits) - 1;
         randomNumber = Random.Range(minValue, maxValue);
     }
 
-    // Randomly select a place value and ask a question
     void AskQuestion()
     {
-        // Randomly pick a place value (ones, tens, hundreds, etc.) based on the level selected
-        int randomPlaceValue = Random.Range(1, levelSelected + 1); // Randomly pick between 1 (ones) to the selected level
+        int randomPlaceValue = Random.Range(1, levelSelected + 1);
         correctAnswer = ExtractDigitAtPlace(randomNumber, randomPlaceValue);
         currentPlace = GetPlaceName(randomPlaceValue);
-
-        // Display the question
         questionText.text = $"How many {currentPlace} are in {randomNumber}?";
         Debug.Log($"Correct answer for {currentPlace}: {correctAnswer}");
     }
 
-    // Extract the digit at a given place (1 for ones, 2 for tens, etc.)
     int ExtractDigitAtPlace(int number, int place)
     {
         return (number / (int)Mathf.Pow(10, place - 1)) % 10;
     }
 
-    // Return the name of the place based on the place value
     string GetPlaceName(int place)
     {
         switch (place)
@@ -68,53 +115,105 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Check if the player hit the correct gem
     public bool CheckAnswer(int playerAnswer)
     {
         if (playerAnswer == correctAnswer)
         {
-            // If the answer is correct, increase the score and generate a new question
-            Debug.Log("Correct! Generating new number...");
-            AddPoints(1);  // Add points (stars) for correct answer
-            GenerateNewQuestion();
-            return true;
+            isCorrect = true;
+            AddPoints(1);
+            resultAudio.PlayCorrectAudio();
+            correctAnswersToWin--;
+            CheckForWin();
+            StartCoroutine(WaitBeforeNextQuestion()); // Call coroutine to wait before next question
+            return isCorrect;
         }
-        return false;
+        else
+        {
+            wrongAnswers++;
+            isCorrect = false;
+            LoseLife();
+            resultAudio.PlayWrongAudio();
+            CheckForGameOver();
+            return isCorrect;
+        }
     }
 
-    // Generate a new question after a correct answer
+    void CheckForWin()
+    {
+        if (correctAnswersToWin <= 0)
+        {
+           StartCoroutine(WaitBeforePopup2());
+           
+        }
+    }
+
+    void CheckForGameOver()
+    {
+        if (wrongAnswers >= maxWrongAnswers)
+        {
+            StartCoroutine(WaitBeforePopup());
+           
+        }
+    }
+
+    // Coroutine to wait before generating the next question
+    IEnumerator WaitBeforeNextQuestion()
+    {
+        yield return new WaitForSeconds(delayBeforeNextQuestion); // Wait for the set delay
+        GenerateNewQuestion(); // Call method to generate the next question after the delay
+    }
+    IEnumerator WaitBeforePopup()
+    {
+        yield return new WaitForSeconds(delayBeforeNextQuestion); // Wait for the set delay
+         // Call method to generate the next question after the delay
+        ShowGameOverScreen();
+    }
+    IEnumerator WaitBeforePopup2()
+    {
+        yield return new WaitForSeconds(delayBeforeNextQuestion); // Wait for the set delay
+                                                                  // Call method to generate the next question after the delay
+        ShowWinScreen();
+    }
+
     void GenerateNewQuestion()
     {
-        GenerateRandomNumber(levelSelected);  // Re-generate the random number
-        AskQuestion();  // Ask the next question based on the new number
-        SpawnGems();  // Re-spawn the gems
+        GenerateRandomNumber(levelSelected); // Re-generate the random number
+        AskQuestion(); // Ask the next question based on the new number
+        SpawnGems(); // Re-spawn the gems
+    }
+
+    public void ShowWinScreen()
+    {
+        winScreen.SetActive(true);
+        winScoreText.text = star.ToString();
+        Time.timeScale = 0f;
+    }
+
+    public void ShowGameOverScreen()
+    {
+       
+        gameOverScreen.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     public void AddPoints(int points)
     {
-        star += points;  // Increase the score
-        UpdateScoreUI();  // Update the UI
+        star += points;
+        UpdateScoreUI();
+        coinAudio.PlayOneShot(coinAudio.clip);
     }
 
-    // Update the score UI
     void UpdateScoreUI()
     {
         scoreText.text = "Score: " + star;
     }
 
-    // Spawn the correct gem and a few incorrect ones
     void SpawnGems()
     {
-        // Clear previous gems in the scene
         ClearExistingGems();
-
-        // Shuffle the spawn points to randomize the position
         Transform[] shuffledSpawnPoints = ShuffleArray(spawnPoints);
-
-        // Spawn the correct gem at one of the spawn points
         SpawnGem(correctAnswer, shuffledSpawnPoints[0]);
 
-        // Spawn wrong gems at other points
         for (int i = 1; i <= numberOfWrongGems; i++)
         {
             int wrongAnswer = GenerateWrongAnswer();
@@ -122,27 +221,24 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Spawn a gem with the given value at the given position
     void SpawnGem(int value, Transform spawnPoint)
     {
         GameObject gem = Instantiate(gemPrefab, spawnPoint.position, Quaternion.identity);
         Gem gemScript = gem.GetComponent<Gem>();
-        gemScript.gemValue = value; // Set the gem's value
-        gemScript.gameManager = this; // Assign the GameManager to the gem
+        gemScript.gemValue = value;
+        gemScript.gameManager = this;
     }
 
-    // Generate a wrong answer that is different from the correct answer
     int GenerateWrongAnswer()
     {
         int wrongAnswer;
         do
         {
-            wrongAnswer = Random.Range(0, 10); // Generate a number between 0 and 9
-        } while (wrongAnswer == correctAnswer); // Ensure it's not the correct answer
+            wrongAnswer = Random.Range(0, 10);
+        } while (wrongAnswer == correctAnswer);
         return wrongAnswer;
     }
 
-    // Shuffle an array of spawn points to randomize gem positions
     Transform[] ShuffleArray(Transform[] array)
     {
         for (int i = array.Length - 1; i > 0; i--)
@@ -154,13 +250,25 @@ public class GameManager : MonoBehaviour
         }
         return array;
     }
+    public void PlayBlastSound()
+    {
 
-    // Clear any existing gems in the scene before spawning new ones
+
+        wrongAnswerAudio.PlayOneShot(wrongAnswerAudio.clip);
+    }
+    public void PlayCorrectBlastSound()
+    {
+
+
+        wrongAnswerAudio.PlayOneShot(correctAudioClip);
+    }
+
     void ClearExistingGems()
     {
         foreach (GameObject gem in GameObject.FindGameObjectsWithTag("Gem"))
         {
-            Destroy(gem); // Destroy existing gems
+            Destroy(gem);
         }
     }
+
 }

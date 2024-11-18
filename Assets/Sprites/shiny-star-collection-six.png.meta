@@ -199,6 +199,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -884,7 +896,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shiny-star-collection-six_0: 3476666333527904422
+      shiny-star-collection-six_1: 702112894982563085
+      shiny-star-collection-six_10: 5558133858008168260
+      shiny-star-collection-six_11: -2155139102777395410
+      shiny-star-collection-six_12: -7235198962957943915
+      shiny-star-collection-six_13: -5332552025737343746
+      shiny-star-collection-six_14: 1999608742417559274
+      shiny-star-collection-six_15: -5958572945085977882
+      shiny-star-collection-six_16: 1504059225339209149
+      shiny-star-collection-six_17: -1772039728846924442
+      shiny-star-collection-six_18: 2451789792558114327
+      shiny-star-collection-six_19: 6040440756011690159
+      shiny-star-collection-six_2: -6763806549367568919
+      shiny-star-collection-six_20: 4094794905128453596
+      shiny-star-collection-six_21: -5910796857938501677
+      shiny-star-collection-six_22: 3290589051565731698
+      shiny-star-collection-six_23: -7211574718992327599
+      shiny-star-collection-six_24: -8015458165258717725
+      shiny-star-collection-six_25: 1066345552351941825
+      shiny-star-collection-six_26: -1178253314766941202
+      shiny-star-collection-six_27: -9192435616975496190
+      shiny-star-collection-six_28: 7694384092448632241
+      shiny-star-collection-six_29: -6742160446650658897
+      shiny-star-collection-six_3: -7157191894937428693
+      shiny-star-collection-six_30: 5223937386459870075
+      shiny-star-collection-six_31: -5281204601001379164
+      shiny-star-collection-six_4: -4547898017461470821
+      shiny-star-collection-six_5: -3632094452376856977
+      shiny-star-collection-six_6: -1787117872980230434
+      shiny-star-collection-six_7: -250320105935120084
+      shiny-star-collection-six_8: -3855298230023503744
+      shiny-star-collection-six_9: -1195989212107524978
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LoadLevel : MonoBehaviour
 {
+    [SerializeField] private int levelNumber;
+    [SerializeField] GameObject conformatioPanel;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +23,12 @@ public class LoadLevel : MonoBehaviour
     public void LoadScene()
     {
         SceneManager.LoadScene(1);
+
+
+    }
+    public void LoadlevelInt()
+    {
+        SceneManager.LoadScene(levelNumber);
 
 
     }

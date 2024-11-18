@@ -6,11 +6,17 @@ public class Gun : MonoBehaviour
     public Transform firePoint;
     private bool facingRight = true;  // Keep track of the player's facing direction
     public JetpackPlayerController jetpackPlayer;
+    public AudioSource shootAudio;
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1")||Input.GetKeyDown(KeyCode.Space))
         {
             Shoot();
+           
+            {
+                shootAudio.Play();// Enable the particle effect
+
+            }
         }
        
     }

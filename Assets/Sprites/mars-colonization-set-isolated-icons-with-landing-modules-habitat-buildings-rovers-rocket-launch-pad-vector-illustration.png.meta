@@ -136,6 +136,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -380,7 +392,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_0: 7904161167067836674
+      mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_1: 70990448111731664
+      mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_10: -8099341200728625970
+      mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_2: -3281569715547265692
+      mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_3: 2197368284120361288
+      mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_4: 8112942053226459238
+      mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_5: 4064442083857798020
+      mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_6: 2129210742754020869
+      mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_7: -7011277490652615090
+      mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_8: 7611088155658577140
+      mars-colonization-set-isolated-icons-with-landing-modules-habitat-buildings-rovers-rocket-launch-pad-vector-illustration_9: 7626095466789885479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

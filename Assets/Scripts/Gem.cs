@@ -1,27 +1,30 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class Gem : MonoBehaviour
 {
-    public int gemValue; // The value of the gem (e.g., 0, 1, 2)
+    public int gemValue;
     public GameManager gameManager;
-    public GameObject particlePrefab; // Assign a particle prefab instead of just an object
-
-    private TextMeshProUGUI valueText; // TextMeshPro component for displaying the gem's value
+    public GameObject particlePrefab;
+    public GameObject particlePrefabCorrect;
+    public Color correctColor = Color.green;
+    public Color wrongColor = Color.red;
+    private TextMeshProUGUI valueText;
+    public SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
-        gameManager = FindAnyObjectByType<GameManager>(); // Find the GameManager in the scene
+        gameManager = FindAnyObjectByType<GameManager>();
+        //spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Start()
     {
-        // Get the TextMeshProUGUI component from the first child (assuming the first child is the text object)
         valueText = gameObject.transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
-
         if (valueText != null)
         {
-            valueText.text = gemValue.ToString(); // Set the text to display the gem's value
+            valueText.text = gemValue.ToString();
         }
         else
         {
@@ -31,10 +34,11 @@ public class Gem : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Projectile")) // Assuming the projectile has the "Projectile" tag
+        if (other.CompareTag("Projectile"))
         {
             CheckAnswer();
-            Destroy(other.gameObject); // Destroy the projectile when it hits the gem
+            Destroy(other.gameObject);
+            
         }
     }
 
@@ -44,19 +48,52 @@ public class Gem : MonoBehaviour
         if (gameManager.CheckAnswer(gemValue))
         {
             Debug.Log("Correct gem hit! Generating new question...");
+            StartCoroutine(BlinkEffect(true));
+
         }
         else
         {
             Debug.Log("Wrong gem hit!");
+            StartCoroutine(BlinkEffect(false));
+            gameManager.PlayBlastSound();
         }
 
         // Spawn the particle effect for both correct and incorrect answers
         if (particlePrefab != null)
         {
-            Instantiate(particlePrefab, transform.position, Quaternion.identity); // Spawn particle prefab at gem's position
+           // Instantiate(particlePrefab, transform.position, Quaternion.identity); // Spawn particle prefab at gem's position
+        }
+    }
+
+    IEnumerator BlinkEffect(bool isCorrect)
+    {
+        // Set the gem's color based on the answer
+        spriteRenderer.color = isCorrect ? correctColor : wrongColor;
+
+        // Blink effect
+        for (int i = 0; i < 3; i++)
+        {
+            spriteRenderer.enabled = false;
+            yield return new WaitForSeconds(0.1f);
+            spriteRenderer.enabled = true;
+            yield return new WaitForSeconds(0.1f);
+        }
+        spriteRenderer.color = Color.white;
+
+        // Spawn particles if available
+        if (particlePrefab != null && !isCorrect)
+        {
+            Instantiate(particlePrefab, transform.position, Quaternion.identity);
+        }
+        if (particlePrefab != null && isCorrect)
+        {
+            Instantiate(particlePrefabCorrect, transform.position, Quaternion.identity);
         }
 
-        // Delay the destruction of the gem
-       
+        // Destroy the gem if the answer was correct
+        if (isCorrect)
+        {
+            Destroy(gameObject);
+        }
     }
 }

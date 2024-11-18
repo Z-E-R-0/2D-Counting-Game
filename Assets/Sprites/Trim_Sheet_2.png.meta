@@ -1,0 +1,1256 @@
+fileFormatVersion: 2
+guid: 2bd474c237f123c419ae593bdbc2b848
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8580516368909959947
+    second: Trim_Sheet_2_0
+  - first:
+      213: 4565329655623074319
+    second: Trim_Sheet_2_1
+  - first:
+      213: -4228390673997022346
+    second: Trim_Sheet_2_2
+  - first:
+      213: -6939132591339543623
+    second: Trim_Sheet_2_3
+  - first:
+      213: 8654195604272058761
+    second: Trim_Sheet_2_4
+  - first:
+      213: -6616103248840908681
+    second: Trim_Sheet_2_5
+  - first:
+      213: 2327427549086687877
+    second: Trim_Sheet_2_6
+  - first:
+      213: 7398963318215389443
+    second: Trim_Sheet_2_7
+  - first:
+      213: -4359206236468149945
+    second: Trim_Sheet_2_8
+  - first:
+      213: 2747798512267891546
+    second: Trim_Sheet_2_9
+  - first:
+      213: -3827451521623502113
+    second: Trim_Sheet_2_10
+  - first:
+      213: 3733967720582849196
+    second: Trim_Sheet_2_11
+  - first:
+      213: -7140784753489131023
+    second: Trim_Sheet_2_12
+  - first:
+      213: 881948571539362581
+    second: Trim_Sheet_2_13
+  - first:
+      213: -8852800428992433830
+    second: Trim_Sheet_2_14
+  - first:
+      213: 1330384201008408934
+    second: Trim_Sheet_2_15
+  - first:
+      213: 8380852190269782295
+    second: Trim_Sheet_2_16
+  - first:
+      213: -1146996900493174243
+    second: Trim_Sheet_2_17
+  - first:
+      213: 347215325127738915
+    second: Trim_Sheet_2_18
+  - first:
+      213: -1349351375018127709
+    second: Trim_Sheet_2_19
+  - first:
+      213: 7526261860084620707
+    second: Trim_Sheet_2_20
+  - first:
+      213: -3173852859599818433
+    second: Trim_Sheet_2_21
+  - first:
+      213: -167635652289791783
+    second: Trim_Sheet_2_22
+  - first:
+      213: 7663877767723366484
+    second: Trim_Sheet_2_23
+  - first:
+      213: -4017880791545204485
+    second: Trim_Sheet_2_24
+  - first:
+      213: 8261855128088419147
+    second: Trim_Sheet_2_25
+  - first:
+      213: -1602641294642300922
+    second: Trim_Sheet_2_26
+  - first:
+      213: 5827275450659171245
+    second: Trim_Sheet_2_27
+  - first:
+      213: -5479718201996856818
+    second: Trim_Sheet_2_28
+  - first:
+      213: 2166842792773070404
+    second: Trim_Sheet_2_29
+  - first:
+      213: -8978593474125334809
+    second: Trim_Sheet_2_30
+  - first:
+      213: -3208890687784278991
+    second: Trim_Sheet_2_31
+  - first:
+      213: 2474297703203284683
+    second: Trim_Sheet_2_32
+  - first:
+      213: 319595550761115010
+    second: Trim_Sheet_2_33
+  - first:
+      213: 2247952735945416343
+    second: Trim_Sheet_2_34
+  - first:
+      213: 3173170475991048473
+    second: Trim_Sheet_2_35
+  - first:
+      213: 5801796558284489917
+    second: Trim_Sheet_2_36
+  - first:
+      213: 363734447223666296
+    second: Trim_Sheet_2_37
+  - first:
+      213: -5565850140527594476
+    second: Trim_Sheet_2_38
+  - first:
+      213: -8752898469569504798
+    second: Trim_Sheet_2_39
+  - first:
+      213: -2068199622768685176
+    second: Trim_Sheet_2_40
+  - first:
+      213: -4939196187195106803
+    second: Trim_Sheet_2_41
+  - first:
+      213: 577458042098984026
+    second: Trim_Sheet_2_42
+  - first:
+      213: -9147861932179439525
+    second: Trim_Sheet_2_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trim_Sheet_2_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1415
+        width: 492
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc72b1f2d1ebe880800000000000000
+      internalID: -8580516368909959947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1993
+        width: 6
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0248f5322f4b5f30800000000000000
+      internalID: 4565329655623074319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1993
+        width: 6
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b35d0c51db155c0800000000000000
+      internalID: -4228390673997022346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_3
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1993
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3eedb5caf33bf90800000000000000
+      internalID: -6939132591339543623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_4
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1942
+        width: 10
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9811269dc01e91870800000000000000
+      internalID: 8654195604272058761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_5
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1370
+        width: 673
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770a7871621ee24a0800000000000000
+      internalID: -6616103248840908681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_6
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 1370
+        width: 366
+        height: 671
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58225cf460fac4020800000000000000
+      internalID: 2327427549086687877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1897
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301bf50cfe56ea660800000000000000
+      internalID: 7398963318215389443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_8
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1897
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74106a4260df083c0800000000000000
+      internalID: -4359206236468149945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_9
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1850
+        width: 6
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53131e3034222620800000000000000
+      internalID: 2747798512267891546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_10
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1844
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd25a9aae1922eac0800000000000000
+      internalID: -3827451521623502113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_11
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1801
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2ad14cbd7b1d330800000000000000
+      internalID: 3733967720582849196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_12
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1754
+        width: 6
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f941c6a916d6ec90800000000000000
+      internalID: -7140784753489131023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_13
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1749
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51354c49d8f4d3c00800000000000000
+      internalID: 881948571539362581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1705
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51fa7af9e8842580800000000000000
+      internalID: -8852800428992433830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_15
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1706
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669e5e3d169767210800000000000000
+      internalID: 1330384201008408934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_16
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1657
+        width: 6
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719b514d9a4ce4470800000000000000
+      internalID: 8380852190269782295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_17
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1653
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a51a3656c0510f0800000000000000
+      internalID: -1146996900493174243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_18
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1606
+        width: 50
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3268fc2af7e81d400800000000000000
+      internalID: 347215325127738915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_19
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1610
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae0cd6d214264de0800000000000000
+      internalID: -1349351375018127709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_20
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1557
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad1ae03947a27860800000000000000
+      internalID: 7526261860084620707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_21
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1514
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31f136d3a534f3d0800000000000000
+      internalID: -3173852859599818433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_22
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1462
+        width: 10
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8739d23407cadf0800000000000000
+      internalID: -167635652289791783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_23
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1461
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4583a2b89309b5a60800000000000000
+      internalID: 7663877767723366484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_24
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1462
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0351e25be9d38c0800000000000000
+      internalID: -4017880791545204485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_25
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1465
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b137f377108a270800000000000000
+      internalID: 8261855128088419147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_26
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1419
+        width: 6
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6083972db3642c9e0800000000000000
+      internalID: -1602641294642300922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_27
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1415
+        width: 9
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabe4ece524aed050800000000000000
+      internalID: 5827275450659171245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_28
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1465
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e023cbcf35124f3b0800000000000000
+      internalID: -5479718201996856818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_29
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1415
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44eaa532a0c221e10800000000000000
+      internalID: 2166842792773070404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_30
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1415
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e67e105ec0a56380800000000000000
+      internalID: -8978593474125334809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_31
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1419
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1342f8fbbeab773d0800000000000000
+      internalID: -3208890687784278991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_32
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1370
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc62ff3d6a8765220800000000000000
+      internalID: 2474297703203284683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1370
+        width: 49
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d59eac57e6f6400800000000000000
+      internalID: 319595550761115010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_34
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1370
+        width: 48
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ed4e96a15523f10800000000000000
+      internalID: 2247952735945416343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_35
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1370
+        width: 49
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91124395cbd590c20800000000000000
+      internalID: 3173170475991048473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_36
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1370
+        width: 48
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db481a30b3f148050800000000000000
+      internalID: 5801796558284489917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_37
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1370
+        width: 51
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876f6577d8e3c0500800000000000000
+      internalID: 363734447223666296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_38
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 687
+        width: 313
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4147bcc49c022c2b0800000000000000
+      internalID: -5565850140527594476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_39
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 688
+        width: 194
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9df3e7735778680800000000000000
+      internalID: -8752898469569504798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_40
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 687
+        width: 453
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f8640a6674c43e0800000000000000
+      internalID: -2068199622768685176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_41
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 5
+        width: 361
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a954a9c33747bb0800000000000000
+      internalID: -4939196187195106803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_42
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 6
+        width: 544
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54a000a70b830800800000000000000
+      internalID: 577458042098984026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trim_Sheet_2_43
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 5
+        width: 568
+        height: 671
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5040264a044c0180800000000000000
+      internalID: -9147861932179439525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -133,6 +133,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -356,7 +368,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      animated-red-heart-sequence-sprite-sheet-love_0: 6761073135207203764
+      animated-red-heart-sequence-sprite-sheet-love_1: -5601686851585829958
+      animated-red-heart-sequence-sprite-sheet-love_2: 1700636977349757563
+      animated-red-heart-sequence-sprite-sheet-love_3: -8713935381270378450
+      animated-red-heart-sequence-sprite-sheet-love_4: -4204158293778629590
+      animated-red-heart-sequence-sprite-sheet-love_5: 2501907924238876242
+      animated-red-heart-sequence-sprite-sheet-love_6: -7309100987266756632
+      animated-red-heart-sequence-sprite-sheet-love_7: -3473966109194937674
+      animated-red-heart-sequence-sprite-sheet-love_8: -7857453471182113075
+      animated-red-heart-sequence-sprite-sheet-love_9: -3087427789746703309
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
